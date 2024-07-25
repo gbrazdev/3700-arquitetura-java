@@ -33,3 +33,4 @@ build/
 
 env
 mysql-data
+key-pair.pem
