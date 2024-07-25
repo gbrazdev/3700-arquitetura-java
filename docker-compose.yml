@@ -16,8 +16,7 @@ services:
       retries: 10
 
   app:
-    build:
-      context: .
+    image: gabrielbrazdev89/arquitetura-java:latest
     env_file: ./env/app.env
     restart: unless-stopped
     depends_on:
