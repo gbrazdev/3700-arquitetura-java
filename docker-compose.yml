@@ -33,6 +33,10 @@ services:
     depends_on:
       - app
 
+  redis:
+    image: redis:7.2.4
+    restart: unless-stopped
+
 
 volumes:
   mysql-data:
